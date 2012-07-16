@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BC2035C6-D427-461B-9F55-E8865A15E401}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GrayWolf</RootNamespace>
+    <AssemblyName>GrayWolf</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v10.2, Version=10.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v10.2, Version=10.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v10.2, Version=10.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v10.2, Version=10.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v10.2, Version=10.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraScheduler.v10.2.Core, Version=10.2.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DefaultManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DefaultManager.Designer.cs">
+      <DependentUpon>DefaultManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserControl10.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl10.Designer.cs">
+      <DependentUpon>UserControl10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl11.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl11.Designer.cs">
+      <DependentUpon>UserControl11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl11_2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl11_2.Designer.cs">
+      <DependentUpon>UserControl11_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl12.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl12.Designer.cs">
+      <DependentUpon>UserControl12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl13.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl13.Designer.cs">
+      <DependentUpon>UserControl13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl14.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl14.Designer.cs">
+      <DependentUpon>UserControl14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl15.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl15.Designer.cs">
+      <DependentUpon>UserControl15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl16.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl16.Designer.cs">
+      <DependentUpon>UserControl16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl17.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl17.Designer.cs">
+      <DependentUpon>UserControl17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl21.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl21.Designer.cs">
+      <DependentUpon>UserControl21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl22.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl22.Designer.cs">
+      <DependentUpon>UserControl22.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl23.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl23.Designer.cs">
+      <DependentUpon>UserControl23.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl24.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl24.Designer.cs">
+      <DependentUpon>UserControl24.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl25.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl25.Designer.cs">
+      <DependentUpon>UserControl25.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl26.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl26.Designer.cs">
+      <DependentUpon>UserControl26.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl27.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl27.Designer.cs">
+      <DependentUpon>UserControl27.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl28.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl28.Designer.cs">
+      <DependentUpon>UserControl28.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl7_2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl7_2.Designer.cs">
+      <DependentUpon>UserControl7_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl2.Designer.cs">
+      <DependentUpon>UserControl2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl3.Designer.cs">
+      <DependentUpon>UserControl3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl3_1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl3_1.Designer.cs">
+      <DependentUpon>UserControl3_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl3_2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl3_2.Designer.cs">
+      <DependentUpon>UserControl3_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl4.Designer.cs">
+      <DependentUpon>UserControl4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl5.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl5.Designer.cs">
+      <DependentUpon>UserControl5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl6.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl6.Designer.cs">
+      <DependentUpon>UserControl6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl7.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl7.Designer.cs">
+      <DependentUpon>UserControl7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl8.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl8.Designer.cs">
+      <DependentUpon>UserControl8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl9.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl9.Designer.cs">
+      <DependentUpon>UserControl9.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DefaultManager.resx">
+      <DependentUpon>DefaultManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="UserControl10.resx">
+      <DependentUpon>UserControl10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl11.resx">
+      <DependentUpon>UserControl11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl11_2.resx">
+      <DependentUpon>UserControl11_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl12.resx">
+      <DependentUpon>UserControl12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl13.resx">
+      <DependentUpon>UserControl13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl14.resx">
+      <DependentUpon>UserControl14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl15.resx">
+      <DependentUpon>UserControl15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl16.resx">
+      <DependentUpon>UserControl16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl17.resx">
+      <DependentUpon>UserControl17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl21.resx">
+      <DependentUpon>UserControl21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl22.resx">
+      <DependentUpon>UserControl22.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl23.resx">
+      <DependentUpon>UserControl23.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl24.resx">
+      <DependentUpon>UserControl24.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl25.resx">
+      <DependentUpon>UserControl25.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl26.resx">
+      <DependentUpon>UserControl26.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl27.resx">
+      <DependentUpon>UserControl27.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl28.resx">
+      <DependentUpon>UserControl28.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl7_2.resx">
+      <DependentUpon>UserControl7_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl2.resx">
+      <DependentUpon>UserControl2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl3.resx">
+      <DependentUpon>UserControl3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl3_1.resx">
+      <DependentUpon>UserControl3_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl3_2.resx">
+      <DependentUpon>UserControl3_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl4.resx">
+      <DependentUpon>UserControl4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl5.resx">
+      <DependentUpon>UserControl5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl6.resx">
+      <DependentUpon>UserControl6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl7.resx">
+      <DependentUpon>UserControl7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl8.resx">
+      <DependentUpon>UserControl8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl9.resx">
+      <DependentUpon>UserControl9.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stones_with_grass_by_Pollon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grass_Texture_by_Holly66696.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bk.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bk1.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
