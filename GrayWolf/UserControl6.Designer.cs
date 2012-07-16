@@ -2,8 +2,7 @@
 {
     partial class UserControl6
     {
-	/// 0---
-	/// mo
+
         /// <summary> 
         /// Required designer variable.
         /// </summary>
